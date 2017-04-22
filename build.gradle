@@ -12,3 +12,8 @@ repositories {
 dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.11'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+    distributionType Wrapper.DistributionType.ALL
+}
