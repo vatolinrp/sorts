@@ -1,3 +1,5 @@
+package com.vatolinrp.sorts;
+
 public class SortUtil
 {
   public static void bubbleSort( int [] array ) {

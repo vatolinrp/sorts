@@ -1,3 +1,5 @@
+package com.vatolinrp.sorts;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
