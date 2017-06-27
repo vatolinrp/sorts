@@ -1,4 +1,4 @@
-group 'vatolin-r.p.'
+group 'com.vatolinrp'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'org.testng', name: 'testng', version: '6.11'
+    testCompile 'org.testng:testng:6.11'
 }
 
 test {
